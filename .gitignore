@@ -1,0 +1,37 @@
+# Rust specific
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE specific
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+
+# Project specific
+data/
+!data/.gitkeep
+models/
+!models/.gitkeep
+.env
+config.local.toml
+
+# Python environment (if using Python bridges)
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# Documentation
+/doc/
+/target/doc/
+
+# OS specific
+.DS_Store
+Thumbs.db
